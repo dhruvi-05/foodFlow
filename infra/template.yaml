@@ -1,0 +1,181 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  WasteWise AI - Restaurant Demand Forecasting & Food-Waste Reduction Architecture.
+  Single-table DynamoDB, S3, HTTP API Gateway, Bedrock LLM Grounding, and LightGBM Lambdas.
+
+Globals:
+  Function:
+    Timeout: 30
+    MemorySize: 512
+    Runtime: python3.12
+    Environment:
+      Variables:
+        TABLE_NAME: !Ref MainTable
+        DATA_BUCKET: !Ref DataBucket
+        BEDROCK_MODEL_ID: anthropic.claude-3-haiku-20240307-v1:0
+        AWS_NODEJS_CONNECTION_REUSE_CONFIG: '1'
+
+Resources:
+  # 1. S3 Data Bucket for raw manager CSV uploads
+  DataBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      CorsConfiguration:
+        CorsRules:
+          - AllowedHeaders: ['*']
+            AllowedMethods: [GET, PUT, POST, DELETE, HEAD]
+            AllowedOrigins: ['*']
+            MaxAge: 3000
+
+  # 2. Single-Table DynamoDB Architecture
+  MainTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: WasteWiseTable
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: PK
+          AttributeType: S
+        - AttributeName: SK
+          AttributeType: S
+        - AttributeName: GSI1PK
+          AttributeType: S
+        - AttributeName: GSI1SK
+          AttributeType: S
+      KeySchema:
+        - AttributeName: PK
+          KeyType: HASH
+        - AttributeName: SK
+          KeyType: RANGE
+      GlobalSecondaryIndexes:
+        - IndexName: GSI1
+          KeySchema:
+            - AttributeName: GSI1PK
+              KeyType: HASH
+            - AttributeName: GSI1SK
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+
+  # 3. HTTP API Gateway (Low latency CORS enabled)
+  HttpApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      CorsConfiguration:
+        AllowOrigins: ['*']
+        AllowHeaders: ['*']
+        AllowMethods: [GET, POST, OPTIONS]
+      DefaultRouteSettings:
+        ThrottlingBurstLimit: 50
+        ThrottlingRateLimit: 20
+
+  # 4. Lambdas
+  IngestFn:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ../backend/
+      Handler: fn_ingest.app.upload_url_handler
+      Policies:
+        - S3ReadPolicy:
+            BucketName: !Ref DataBucket
+        - DynamoDBCrudPolicy:
+            TableName: !Ref MainTable
+      Events:
+        UploadUrlApi:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /api/upload-url
+            Method: POST
+
+  PlanFn:
+    Type: AWS::Serverless::Function
+    Properties:
+      PackageType: Image
+      MemorySize: 1024
+      Policies:
+        - DynamoDBReadPolicy:
+            TableName: !Ref MainTable
+        - S3ReadPolicy:
+            BucketName: !Ref DataBucket
+      Events:
+        PlanApi:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /api/plan
+            Method: GET
+    Metadata:
+      Dockerfile: Dockerfile
+      DockerContext: ../backend/fn_plan
+      DockerTag: latest
+
+  ExplainFn:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ../backend/
+      Handler: fn_explain.app.explain_handler
+      Policies:
+        - Statement:
+            - Effect: Allow
+              Action:
+                - bedrock:InvokeModel
+              Resource: '*'
+      Events:
+        ExplainApi:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /api/explain
+            Method: POST
+        AskApi:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /api/ask
+            Method: POST
+
+  WasteFn:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ../backend/
+      Handler: fn_waste.app.waste_handler
+      MemorySize: 256
+      Timeout: 15
+      Policies:
+        - DynamoDBReadPolicy:
+            TableName: !Ref MainTable
+      Events:
+        WasteApi:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /api/waste
+            Method: GET
+
+  SimulateFn:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ../backend/
+      Handler: fn_simulate.app.simulate_handler
+      MemorySize: 256
+      Timeout: 15
+      Policies:
+        - DynamoDBReadPolicy:
+            TableName: !Ref MainTable
+      Events:
+        SimulateApi:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /api/simulate
+            Method: POST
+
+Outputs:
+  ApiUrl:
+    Description: HTTP API Gateway Endpoint URL
+    Value: !Sub "https://${HttpApi}.execute-api.${AWS::Region}.amazonaws.com"
+  DataBucketName:
+    Description: S3 Data Bucket Name
+    Value: !Ref DataBucket

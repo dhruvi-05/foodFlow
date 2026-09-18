@@ -1,0 +1,52 @@
+[
+  {
+    "dish_id": "D01",
+    "dish_name": "Biryani",
+    "category": "Main",
+    "price": 180,
+    "unit_cost": 80,
+    "shelf_life_hours": 24,
+    "base_daily_demand": 70,
+    "batch_size": 5
+  },
+  {
+    "dish_id": "D02",
+    "dish_name": "Paneer Butter Masala",
+    "category": "Main",
+    "price": 220,
+    "unit_cost": 95,
+    "shelf_life_hours": 24,
+    "base_daily_demand": 42,
+    "batch_size": 1
+  },
+  {
+    "dish_id": "D03",
+    "dish_name": "Dal Tadka",
+    "category": "Side",
+    "price": 120,
+    "unit_cost": 38,
+    "shelf_life_hours": 24,
+    "base_daily_demand": 32,
+    "batch_size": 1
+  },
+  {
+    "dish_id": "D04",
+    "dish_name": "Veg Fried Rice",
+    "category": "Main",
+    "price": 150,
+    "unit_cost": 55,
+    "shelf_life_hours": 24,
+    "base_daily_demand": 36,
+    "batch_size": 1
+  },
+  {
+    "dish_id": "D05",
+    "dish_name": "Butter Naan",
+    "category": "Bread",
+    "price": 45,
+    "unit_cost": 12,
+    "shelf_life_hours": 4,
+    "base_daily_demand": 95,
+    "batch_size": 10
+  }
+]

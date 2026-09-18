@@ -1,0 +1,901 @@
+date,restaurant_id,dish_id,dish_name,category,price,unit_cost,promotion,day_of_week,holiday,temperature,rainfall,units_prepared,units_sold,units_wasted,waste_reason,opening_inventory,closing_inventory
+2026-03-23,R001,D01,Biryani,Main,180,80,0,Monday,0,30.5,0.0,70,58,14,overproduction,2,0
+2026-03-23,R001,D02,Paneer Butter Masala,Main,220,95,1,Monday,0,30.5,0.0,44,44,0,none,0,0
+2026-03-23,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,30.5,0.0,41,35,8,overproduction,2,0
+2026-03-23,R001,D04,Veg Fried Rice,Main,150,55,1,Monday,0,30.5,0.0,40,44,0,none,4,0
+2026-03-23,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,30.5,0.0,100,80,20,overproduction,0,0
+2026-03-24,R001,D01,Biryani,Main,180,80,0,Tuesday,0,32.0,0.0,70,60,10,overproduction,0,0
+2026-03-24,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,32.0,0.0,45,33,12,overproduction,0,0
+2026-03-24,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,32.0,0.0,38,31,7,overproduction,0,0
+2026-03-24,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,32.0,0.0,41,39,2,overproduction,0,0
+2026-03-24,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,32.0,0.0,110,84,26,overproduction,0,0
+2026-03-25,R001,D01,Biryani,Main,180,80,0,Wednesday,0,31.8,0.0,75,55,20,other,0,0
+2026-03-25,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,31.8,0.0,46,50,0,none,4,0
+2026-03-25,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,31.8,0.0,37,30,7,expiry,0,0
+2026-03-25,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,31.8,0.0,42,42,0,none,0,0
+2026-03-25,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,31.8,0.0,110,90,20,prep_error,0,0
+2026-03-26,R001,D01,Biryani,Main,180,80,0,Thursday,0,32.8,0.0,75,59,16,expiry,0,0
+2026-03-26,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,32.8,0.0,48,42,6,overproduction,0,0
+2026-03-26,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,32.8,0.0,36,27,13,expiry,4,0
+2026-03-26,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,32.8,0.0,43,40,3,overproduction,0,0
+2026-03-26,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,32.8,0.0,110,96,14,overproduction,0,0
+2026-03-27,R001,D01,Biryani,Main,180,80,0,Friday,0,32.8,0.0,95,71,26,overproduction,2,0
+2026-03-27,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,32.8,0.0,54,45,9,overproduction,0,0
+2026-03-27,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,32.8,0.0,35,31,4,other,0,0
+2026-03-27,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,32.8,0.0,45,38,9,overproduction,2,0
+2026-03-27,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,32.8,0.0,130,119,13,overproduction,2,0
+2026-03-28,R001,D01,Biryani,Main,180,80,0,Saturday,0,34.0,0.0,110,103,7,overproduction,0,0
+2026-03-28,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,34.0,0.0,60,54,6,overproduction,0,0
+2026-03-28,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,34.0,0.0,42,40,2,overproduction,0,0
+2026-03-28,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,34.0,0.0,48,45,5,overproduction,2,0
+2026-03-28,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,34.0,0.0,140,136,4,expiry,0,0
+2026-03-29,R001,D01,Biryani,Main,180,80,0,Sunday,0,31.8,0.0,105,92,15,overproduction,2,0
+2026-03-29,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,31.8,0.0,57,57,0,none,0,0
+2026-03-29,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,31.8,0.0,46,39,7,overproduction,0,0
+2026-03-29,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,31.8,0.0,45,40,5,overproduction,0,0
+2026-03-29,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,31.8,0.0,140,125,15,overproduction,0,0
+2026-03-30,R001,D01,Biryani,Main,180,80,0,Monday,0,35.6,0.0,70,59,13,overproduction,2,0
+2026-03-30,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,35.6,0.0,49,39,10,prep_error,0,0
+2026-03-30,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,35.6,0.0,42,35,9,expiry,2,0
+2026-03-30,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,35.6,0.0,45,36,9,prep_error,0,0
+2026-03-30,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,35.6,0.0,110,90,20,expiry,0,0
+2026-03-31,R001,D01,Biryani,Main,180,80,0,Tuesday,0,38.4,0.0,70,55,15,overproduction,0,0
+2026-03-31,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,38.4,0.0,49,42,7,expiry,0,0
+2026-03-31,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,38.4,0.0,40,29,11,overproduction,0,0
+2026-03-31,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,38.4,0.0,46,39,7,other,0,0
+2026-03-31,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,38.4,0.0,120,91,31,overproduction,2,0
+2026-04-01,R001,D01,Biryani,Main,180,80,0,Wednesday,0,36.3,0.0,75,50,29,other,4,0
+2026-04-01,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,36.3,0.0,52,51,1,overproduction,0,0
+2026-04-01,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,36.3,0.0,38,30,8,overproduction,0,0
+2026-04-01,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,36.3,0.0,47,46,1,prep_error,0,0
+2026-04-01,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,36.3,0.0,120,93,27,overproduction,0,0
+2026-04-02,R001,D01,Biryani,Main,180,80,0,Thursday,0,35.1,0.0,75,68,7,expiry,0,0
+2026-04-02,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,35.1,0.0,54,42,14,overproduction,2,0
+2026-04-02,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,35.1,0.0,37,29,8,expiry,0,0
+2026-04-02,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,35.1,0.0,49,42,7,overproduction,0,0
+2026-04-02,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,35.1,0.0,130,92,38,overproduction,0,0
+2026-04-03,R001,D01,Biryani,Main,180,80,0,Friday,0,36.3,0.0,95,81,14,expiry,0,0
+2026-04-03,R001,D02,Paneer Butter Masala,Main,220,95,1,Friday,0,36.3,0.0,61,59,2,expiry,0,0
+2026-04-03,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,36.3,0.0,36,31,5,expiry,0,0
+2026-04-03,R001,D04,Veg Fried Rice,Main,150,55,1,Friday,0,36.3,0.0,51,51,0,none,0,0
+2026-04-03,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,36.3,0.0,150,108,42,overproduction,0,0
+2026-04-04,R001,D01,Biryani,Main,180,80,0,Saturday,0,33.7,0.0,115,101,16,overproduction,2,0
+2026-04-04,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,33.7,0.0,71,47,24,overproduction,0,0
+2026-04-04,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,33.7,0.0,44,37,7,overproduction,0,0
+2026-04-04,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,33.7,0.0,57,44,15,prep_error,2,0
+2026-04-04,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,33.7,0.0,160,122,38,overproduction,0,0
+2026-04-05,R001,D01,Biryani,Main,180,80,0,Sunday,0,33.1,0.0,105,89,16,prep_error,0,0
+2026-04-05,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,33.1,0.0,66,50,16,overproduction,0,0
+2026-04-05,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,33.1,0.0,47,37,10,expiry,0,0
+2026-04-05,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,33.1,0.0,54,35,21,overproduction,2,0
+2026-04-05,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,33.1,0.0,150,119,31,expiry,0,0
+2026-04-06,R001,D01,Biryani,Main,180,80,0,Monday,0,36.9,0.0,70,57,13,overproduction,0,0
+2026-04-06,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,36.9,0.0,50,39,11,overproduction,0,0
+2026-04-06,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,36.9,0.0,41,33,12,overproduction,4,0
+2026-04-06,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,36.9,0.0,46,33,15,expiry,2,0
+2026-04-06,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,36.9,0.0,110,84,26,overproduction,0,0
+2026-04-07,R001,D01,Biryani,Main,180,80,0,Tuesday,0,35.2,29.099746618946753,70,53,17,expiry,0,0
+2026-04-07,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,35.2,29.099746618946753,51,28,27,other,4,0
+2026-04-07,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,35.2,29.099746618946753,39,33,10,overproduction,4,0
+2026-04-07,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,35.2,29.099746618946753,47,29,22,prep_error,4,0
+2026-04-07,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,35.2,29.099746618946753,110,76,34,overproduction,0,0
+2026-04-08,R001,D01,Biryani,Main,180,80,0,Wednesday,0,34.2,11.31960890611875,75,46,29,overproduction,0,0
+2026-04-08,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,34.2,11.31960890611875,50,42,12,expiry,4,0
+2026-04-08,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,34.2,11.31960890611875,38,28,10,other,0,0
+2026-04-08,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,34.2,11.31960890611875,47,36,11,overproduction,0,0
+2026-04-08,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,34.2,11.31960890611875,120,81,39,expiry,0,0
+2026-04-09,R001,D01,Biryani,Main,180,80,0,Thursday,0,35.2,28.61103900791031,80,53,27,overproduction,0,0
+2026-04-09,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,35.2,28.61103900791031,50,33,19,prep_error,2,0
+2026-04-09,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,35.2,28.61103900791031,37,30,7,overproduction,0,0
+2026-04-09,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,35.2,28.61103900791031,46,30,18,expiry,2,0
+2026-04-09,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,35.2,28.61103900791031,120,88,34,overproduction,2,0
+2026-04-10,R001,D01,Biryani,Main,180,80,0,Friday,0,35.0,23.308654580448124,90,57,33,overproduction,0,0
+2026-04-10,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,35.0,23.308654580448124,55,35,20,overproduction,0,0
+2026-04-10,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,35.0,23.308654580448124,36,29,7,overproduction,0,0
+2026-04-10,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,35.0,23.308654580448124,46,26,22,overproduction,2,0
+2026-04-10,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,35.0,23.308654580448124,130,91,41,overproduction,2,0
+2026-04-11,R001,D01,Biryani,Main,180,80,0,Saturday,0,37.1,18.929149832754142,105,62,43,overproduction,0,0
+2026-04-11,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,37.1,18.929149832754142,56,40,16,expiry,0,0
+2026-04-11,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,37.1,18.929149832754142,42,33,11,other,2,0
+2026-04-11,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,37.1,18.929149832754142,45,28,19,overproduction,2,0
+2026-04-11,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,37.1,18.929149832754142,140,101,39,overproduction,0,0
+2026-04-12,R001,D01,Biryani,Main,180,80,0,Sunday,1,38.0,0.0,90,90,0,none,0,0
+2026-04-12,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,1,38.0,0.0,52,52,0,none,0,0
+2026-04-12,R001,D03,Dal Tadka,Side,120,38,0,Sunday,1,38.0,0.0,45,45,0,none,0,0
+2026-04-12,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,1,38.0,0.0,39,41,0,none,2,0
+2026-04-12,R001,D05,Butter Naan,Bread,45,12,0,Sunday,1,38.0,0.0,130,128,6,expiry,4,0
+2026-04-13,R001,D01,Biryani,Main,180,80,0,Monday,0,38.7,0.0,60,53,7,expiry,0,0
+2026-04-13,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,38.7,0.0,41,31,10,expiry,0,0
+2026-04-13,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,38.7,0.0,42,32,10,overproduction,0,0
+2026-04-13,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,38.7,0.0,35,34,1,overproduction,0,0
+2026-04-13,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,38.7,0.0,100,83,17,overproduction,0,0
+2026-04-14,R001,D01,Biryani,Main,180,80,0,Tuesday,0,38.9,0.0,60,50,10,expiry,0,0
+2026-04-14,R001,D02,Paneer Butter Masala,Main,220,95,1,Tuesday,0,38.9,0.0,40,40,0,none,0,0
+2026-04-14,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,38.9,0.0,39,31,8,overproduction,0,0
+2026-04-14,R001,D04,Veg Fried Rice,Main,150,55,1,Tuesday,0,38.9,0.0,36,38,0,none,2,0
+2026-04-14,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,38.9,0.0,100,74,26,expiry,0,0
+2026-04-15,R001,D01,Biryani,Main,180,80,0,Wednesday,0,38.9,0.0,60,55,5,overproduction,0,0
+2026-04-15,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,38.9,0.0,43,43,0,none,0,0
+2026-04-15,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,38.9,0.0,38,32,6,overproduction,0,0
+2026-04-15,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,38.9,0.0,39,39,0,none,0,0
+2026-04-15,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,38.9,0.0,110,84,30,prep_error,4,0
+2026-04-16,R001,D01,Biryani,Main,180,80,0,Thursday,0,37.6,0.0,65,57,8,overproduction,0,0
+2026-04-16,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,37.6,0.0,45,36,11,overproduction,2,0
+2026-04-16,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,37.6,0.0,37,28,9,expiry,0,0
+2026-04-16,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,37.6,0.0,40,38,2,prep_error,0,0
+2026-04-16,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,37.6,0.0,110,92,18,overproduction,0,0
+2026-04-17,R001,D01,Biryani,Main,180,80,0,Friday,0,37.2,0.0,80,73,9,expiry,2,0
+2026-04-17,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,37.2,0.0,51,43,8,expiry,0,0
+2026-04-17,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,37.2,0.0,36,29,7,other,0,0
+2026-04-17,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,37.2,0.0,44,37,9,expiry,2,0
+2026-04-17,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,37.2,0.0,130,108,22,prep_error,0,0
+2026-04-18,R001,D01,Biryani,Main,180,80,0,Saturday,0,36.0,0.0,100,98,2,prep_error,0,0
+2026-04-18,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,36.0,0.0,59,48,11,overproduction,0,0
+2026-04-18,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,36.0,0.0,43,34,13,overproduction,4,0
+2026-04-18,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,36.0,0.0,49,38,11,overproduction,0,0
+2026-04-18,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,36.0,0.0,140,102,38,expiry,0,0
+2026-04-19,R001,D01,Biryani,Main,180,80,0,Sunday,0,40.1,0.0,100,70,32,expiry,2,0
+2026-04-19,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,40.1,0.0,57,46,11,overproduction,0,0
+2026-04-19,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,40.1,0.0,47,35,12,prep_error,0,0
+2026-04-19,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,40.1,0.0,48,36,12,expiry,0,0
+2026-04-19,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,40.1,0.0,140,104,36,overproduction,0,0
+2026-04-20,R001,D01,Biryani,Main,180,80,0,Monday,0,38.4,7.684424752877784,65,43,22,expiry,0,0
+2026-04-20,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,38.4,7.684424752877784,43,28,17,overproduction,2,0
+2026-04-20,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,38.4,7.684424752877784,40,30,12,other,2,0
+2026-04-20,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,38.4,7.684424752877784,41,25,20,expiry,4,0
+2026-04-20,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,38.4,7.684424752877784,100,69,33,overproduction,2,0
+2026-04-21,R001,D01,Biryani,Main,180,80,0,Tuesday,0,38.2,31.11910822747312,65,43,22,prep_error,0,0
+2026-04-21,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,38.2,31.11910822747312,44,31,13,overproduction,0,0
+2026-04-21,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,38.2,31.11910822747312,38,30,8,overproduction,0,0
+2026-04-21,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,38.2,31.11910822747312,41,30,13,overproduction,2,0
+2026-04-21,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,38.2,31.11910822747312,100,70,34,overproduction,4,0
+2026-04-22,R001,D01,Biryani,Main,180,80,0,Wednesday,0,40.7,23.432335340553056,65,49,16,other,0,0
+2026-04-22,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,40.7,23.432335340553056,43,38,5,other,0,0
+2026-04-22,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,40.7,23.432335340553056,36,33,3,overproduction,0,0
+2026-04-22,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,40.7,23.432335340553056,41,38,7,overproduction,4,0
+2026-04-22,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,40.7,23.432335340553056,100,89,11,expiry,0,0
+2026-04-23,R001,D01,Biryani,Main,180,80,0,Thursday,0,37.7,26.53410475608532,70,53,17,prep_error,0,0
+2026-04-23,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,37.7,26.53410475608532,44,39,5,overproduction,0,0
+2026-04-23,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,37.7,26.53410475608532,35,29,6,overproduction,0,0
+2026-04-23,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,37.7,26.53410475608532,41,30,15,other,4,0
+2026-04-23,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,37.7,26.53410475608532,110,84,26,overproduction,0,0
+2026-04-24,R001,D01,Biryani,Main,180,80,0,Friday,0,40.4,6.5969503345782705,80,66,14,overproduction,0,0
+2026-04-24,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,40.4,6.5969503345782705,51,36,19,expiry,4,0
+2026-04-24,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,40.4,6.5969503345782705,34,28,10,prep_error,4,0
+2026-04-24,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,40.4,6.5969503345782705,42,39,3,overproduction,0,0
+2026-04-24,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,40.4,6.5969503345782705,120,106,18,overproduction,4,0
+2026-04-25,R001,D01,Biryani,Main,180,80,0,Saturday,0,39.8,0.0,95,87,8,overproduction,0,0
+2026-04-25,R001,D02,Paneer Butter Masala,Main,220,95,1,Saturday,0,39.8,0.0,55,55,0,none,0,0
+2026-04-25,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,39.8,0.0,41,41,0,none,0,0
+2026-04-25,R001,D04,Veg Fried Rice,Main,150,55,1,Saturday,0,39.8,0.0,45,47,0,none,2,0
+2026-04-25,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,39.8,0.0,140,120,24,prep_error,4,0
+2026-04-26,R001,D01,Biryani,Main,180,80,0,Sunday,0,37.9,0.0,85,82,3,other,0,0
+2026-04-26,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,37.9,0.0,53,44,9,overproduction,0,0
+2026-04-26,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,37.9,0.0,46,44,2,overproduction,0,0
+2026-04-26,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,37.9,0.0,44,44,0,none,0,0
+2026-04-26,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,37.9,0.0,130,130,0,none,0,0
+2026-04-27,R001,D01,Biryani,Main,180,80,0,Monday,0,39.4,0.0,60,56,6,overproduction,2,0
+2026-04-27,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,39.4,0.0,41,41,0,none,0,0
+2026-04-27,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,39.4,0.0,43,37,6,overproduction,0,0
+2026-04-27,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,39.4,0.0,40,39,3,overproduction,2,0
+2026-04-27,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,39.4,0.0,100,97,3,overproduction,0,0
+2026-04-28,R001,D01,Biryani,Main,180,80,0,Tuesday,0,41.1,0.0,65,63,2,overproduction,0,0
+2026-04-28,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,41.1,0.0,44,35,13,overproduction,4,0
+2026-04-28,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,41.1,0.0,41,39,2,expiry,0,0
+2026-04-28,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,41.1,0.0,43,38,7,other,2,0
+2026-04-28,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,41.1,0.0,110,78,32,other,0,0
+2026-04-29,R001,D01,Biryani,Main,180,80,0,Wednesday,0,40.9,0.0,70,60,10,overproduction,0,0
+2026-04-29,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,40.9,0.0,45,45,0,none,0,0
+2026-04-29,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,40.9,0.0,42,36,6,overproduction,0,0
+2026-04-29,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,40.9,0.0,46,45,1,prep_error,0,0
+2026-04-29,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,40.9,0.0,120,97,23,expiry,0,0
+2026-04-30,R001,D01,Biryani,Main,180,80,0,Thursday,0,42.0,0.0,75,61,14,overproduction,0,0
+2026-04-30,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,42.0,0.0,48,41,7,overproduction,0,0
+2026-04-30,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,42.0,0.0,41,29,12,overproduction,0,0
+2026-04-30,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,42.0,0.0,48,39,9,overproduction,0,0
+2026-04-30,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,42.0,0.0,120,101,19,prep_error,0,0
+2026-05-01,R001,D01,Biryani,Main,180,80,0,Friday,0,40.3,0.0,90,85,9,overproduction,4,0
+2026-05-01,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,40.3,0.0,55,51,6,overproduction,2,0
+2026-05-01,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,40.3,0.0,40,30,10,overproduction,0,0
+2026-05-01,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,40.3,0.0,52,51,1,overproduction,0,0
+2026-05-01,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,40.3,0.0,140,108,34,overproduction,2,0
+2026-05-02,R001,D01,Biryani,Main,180,80,0,Saturday,0,44.9,0.0,110,98,14,overproduction,2,0
+2026-05-02,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,44.9,0.0,64,49,15,overproduction,0,0
+2026-05-02,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,44.9,0.0,48,42,6,overproduction,0,0
+2026-05-02,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,44.9,0.0,58,37,21,overproduction,0,0
+2026-05-02,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,44.9,0.0,160,112,48,overproduction,0,0
+2026-05-03,R001,D01,Biryani,Main,180,80,0,Sunday,0,38.5,0.0,105,80,27,overproduction,2,0
+2026-05-03,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,38.5,0.0,60,54,6,overproduction,0,0
+2026-05-03,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,38.5,0.0,52,43,9,overproduction,0,0
+2026-05-03,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,38.5,0.0,53,40,13,overproduction,0,0
+2026-05-03,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,38.5,0.0,150,131,19,expiry,0,0
+2026-05-04,R001,D01,Biryani,Main,180,80,0,Monday,0,39.4,0.0,70,47,27,overproduction,4,0
+2026-05-04,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,39.4,0.0,48,41,7,overproduction,0,0
+2026-05-04,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,39.4,0.0,47,35,12,overproduction,0,0
+2026-05-04,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,39.4,0.0,46,34,12,overproduction,0,0
+2026-05-04,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,39.4,0.0,110,70,44,overproduction,4,0
+2026-05-05,R001,D01,Biryani,Main,180,80,0,Tuesday,0,39.9,0.0,70,59,11,other,0,0
+2026-05-05,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,39.9,0.0,49,39,10,overproduction,0,0
+2026-05-05,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,39.9,0.0,44,34,10,prep_error,0,0
+2026-05-05,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,39.9,0.0,46,43,3,expiry,0,0
+2026-05-05,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,39.9,0.0,110,99,11,overproduction,0,0
+2026-05-06,R001,D01,Biryani,Main,180,80,0,Wednesday,0,37.9,0.0,75,59,16,overproduction,0,0
+2026-05-06,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,37.9,0.0,50,39,11,overproduction,0,0
+2026-05-06,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,37.9,0.0,41,29,12,overproduction,0,0
+2026-05-06,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,37.9,0.0,49,48,1,overproduction,0,0
+2026-05-06,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,37.9,0.0,120,85,35,expiry,0,0
+2026-05-07,R001,D01,Biryani,Main,180,80,0,Thursday,0,41.6,26.937964395737918,75,52,23,overproduction,0,0
+2026-05-07,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,41.6,26.937964395737918,51,28,27,expiry,4,0
+2026-05-07,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,41.6,26.937964395737918,39,28,15,overproduction,4,0
+2026-05-07,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,41.6,26.937964395737918,50,31,19,overproduction,0,0
+2026-05-07,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,41.6,26.937964395737918,120,83,39,overproduction,2,0
+2026-05-08,R001,D01,Biryani,Main,180,80,0,Friday,0,41.4,33.218028561456755,90,59,33,overproduction,2,0
+2026-05-08,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,41.4,33.218028561456755,56,37,19,overproduction,0,0
+2026-05-08,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,41.4,33.218028561456755,38,31,7,overproduction,0,0
+2026-05-08,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,41.4,33.218028561456755,51,35,18,overproduction,2,0
+2026-05-08,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,41.4,33.218028561456755,130,91,39,overproduction,0,0
+2026-05-09,R001,D01,Biryani,Main,180,80,0,Saturday,0,40.0,6.022584209389415,105,78,27,expiry,0,0
+2026-05-09,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,40.0,6.022584209389415,59,36,25,overproduction,2,0
+2026-05-09,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,40.0,6.022584209389415,45,35,10,prep_error,0,0
+2026-05-09,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,40.0,6.022584209389415,51,32,23,expiry,4,0
+2026-05-09,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,40.0,6.022584209389415,140,104,36,overproduction,0,0
+2026-05-10,R001,D01,Biryani,Main,180,80,0,Sunday,0,39.2,34.774135219445306,90,67,23,prep_error,0,0
+2026-05-10,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,39.2,34.774135219445306,54,42,14,overproduction,2,0
+2026-05-10,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,39.2,34.774135219445306,48,34,16,overproduction,2,0
+2026-05-10,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,39.2,34.774135219445306,47,29,18,expiry,0,0
+2026-05-10,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,39.2,34.774135219445306,140,93,49,overproduction,2,0
+2026-05-11,R001,D01,Biryani,Main,180,80,0,Monday,0,37.7,0.0,60,55,7,overproduction,2,0
+2026-05-11,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,37.7,0.0,40,39,1,overproduction,0,0
+2026-05-11,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,37.7,0.0,41,32,11,expiry,2,0
+2026-05-11,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,37.7,0.0,40,37,3,overproduction,0,0
+2026-05-11,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,37.7,0.0,100,86,14,overproduction,0,0
+2026-05-12,R001,D01,Biryani,Main,180,80,0,Tuesday,0,38.7,0.0,60,53,7,overproduction,0,0
+2026-05-12,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,38.7,0.0,40,38,6,overproduction,4,0
+2026-05-12,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,38.7,0.0,38,31,7,overproduction,0,0
+2026-05-12,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,38.7,0.0,42,42,2,other,2,0
+2026-05-12,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,38.7,0.0,100,92,12,expiry,4,0
+2026-05-13,R001,D01,Biryani,Main,180,80,0,Wednesday,0,40.9,0.0,65,56,9,overproduction,0,0
+2026-05-13,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,40.9,0.0,41,41,2,other,2,0
+2026-05-13,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,40.9,0.0,37,35,6,overproduction,4,0
+2026-05-13,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,40.9,0.0,43,43,0,none,0,0
+2026-05-13,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,40.9,0.0,110,87,23,overproduction,0,0
+2026-05-14,R001,D01,Biryani,Main,180,80,0,Thursday,1,39.4,0.0,65,65,0,none,0,0
+2026-05-14,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,1,39.4,0.0,43,44,3,overproduction,4,0
+2026-05-14,R001,D03,Dal Tadka,Side,120,38,0,Thursday,1,39.4,0.0,36,36,0,none,0,0
+2026-05-14,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,1,39.4,0.0,43,43,0,none,0,0
+2026-05-14,R001,D05,Butter Naan,Bread,45,12,0,Thursday,1,39.4,0.0,110,106,4,overproduction,0,0
+2026-05-15,R001,D01,Biryani,Main,180,80,0,Friday,0,39.0,0.0,85,69,16,prep_error,0,0
+2026-05-15,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,39.0,0.0,51,47,4,overproduction,0,0
+2026-05-15,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,39.0,0.0,37,24,13,overproduction,0,0
+2026-05-15,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,39.0,0.0,47,35,16,overproduction,4,0
+2026-05-15,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,39.0,0.0,130,97,33,overproduction,0,0
+2026-05-16,R001,D01,Biryani,Main,180,80,0,Saturday,0,40.4,0.0,100,78,24,overproduction,2,0
+2026-05-16,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,40.4,0.0,59,50,9,overproduction,0,0
+2026-05-16,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,40.4,0.0,42,41,1,expiry,0,0
+2026-05-16,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,40.4,0.0,50,37,13,overproduction,0,0
+2026-05-16,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,40.4,0.0,140,93,47,overproduction,0,0
+2026-05-17,R001,D01,Biryani,Main,180,80,0,Sunday,0,41.3,0.0,95,70,25,prep_error,0,0
+2026-05-17,R001,D02,Paneer Butter Masala,Main,220,95,1,Sunday,0,41.3,0.0,59,56,3,expiry,0,0
+2026-05-17,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,41.3,0.0,48,38,10,overproduction,0,0
+2026-05-17,R001,D04,Veg Fried Rice,Main,150,55,1,Sunday,0,41.3,0.0,48,48,0,none,0,0
+2026-05-17,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,41.3,0.0,130,98,32,overproduction,0,0
+2026-05-18,R001,D01,Biryani,Main,180,80,0,Monday,0,39.8,0.0,60,54,6,overproduction,0,0
+2026-05-18,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,39.8,0.0,48,32,18,overproduction,2,0
+2026-05-18,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,39.8,0.0,43,30,13,overproduction,0,0
+2026-05-18,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,39.8,0.0,45,35,12,prep_error,2,0
+2026-05-18,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,39.8,0.0,100,77,23,overproduction,0,0
+2026-05-19,R001,D01,Biryani,Main,180,80,0,Tuesday,0,39.8,0.0,65,58,7,prep_error,0,0
+2026-05-19,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,39.8,0.0,48,37,11,prep_error,0,0
+2026-05-19,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,39.8,0.0,40,28,14,overproduction,2,0
+2026-05-19,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,39.8,0.0,46,33,13,overproduction,0,0
+2026-05-19,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,39.8,0.0,100,73,27,overproduction,0,0
+2026-05-20,R001,D01,Biryani,Main,180,80,0,Wednesday,0,41.2,0.0,65,47,18,other,0,0
+2026-05-20,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,41.2,0.0,48,50,0,none,2,0
+2026-05-20,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,41.2,0.0,39,33,8,overproduction,2,0
+2026-05-20,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,41.2,0.0,46,45,1,overproduction,0,0
+2026-05-20,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,41.2,0.0,110,102,8,overproduction,0,0
+2026-05-21,R001,D01,Biryani,Main,180,80,0,Thursday,0,39.3,0.0,70,63,9,other,2,0
+2026-05-21,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,39.3,0.0,51,36,15,overproduction,0,0
+2026-05-21,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,39.3,0.0,37,30,11,overproduction,4,0
+2026-05-21,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,39.3,0.0,47,33,14,expiry,0,0
+2026-05-21,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,39.3,0.0,110,94,18,overproduction,2,0
+2026-05-22,R001,D01,Biryani,Main,180,80,0,Friday,0,38.5,0.0,85,84,1,overproduction,0,0
+2026-05-22,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,38.5,0.0,57,51,10,overproduction,4,0
+2026-05-22,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,38.5,0.0,35,30,5,overproduction,0,0
+2026-05-22,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,38.5,0.0,48,33,17,overproduction,2,0
+2026-05-22,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,38.5,0.0,120,93,27,overproduction,0,0
+2026-05-23,R001,D01,Biryani,Main,180,80,0,Saturday,0,39.8,0.0,105,94,11,expiry,0,0
+2026-05-23,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,39.8,0.0,64,53,11,expiry,0,0
+2026-05-23,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,39.8,0.0,43,31,16,expiry,4,0
+2026-05-23,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,39.8,0.0,51,45,6,overproduction,0,0
+2026-05-23,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,39.8,0.0,140,104,36,overproduction,0,0
+2026-05-24,R001,D01,Biryani,Main,180,80,0,Sunday,0,38.2,14.823025045826594,100,67,33,expiry,0,0
+2026-05-24,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,38.2,14.823025045826594,62,41,21,expiry,0,0
+2026-05-24,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,38.2,14.823025045826594,45,35,12,expiry,2,0
+2026-05-24,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,38.2,14.823025045826594,49,32,17,overproduction,0,0
+2026-05-24,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,38.2,14.823025045826594,130,88,42,prep_error,0,0
+2026-05-25,R001,D01,Biryani,Main,180,80,0,Monday,0,37.9,21.2179365173349,65,50,15,other,0,0
+2026-05-25,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,37.9,21.2179365173349,45,28,17,prep_error,0,0
+2026-05-25,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,37.9,21.2179365173349,39,35,6,expiry,2,0
+2026-05-25,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,37.9,21.2179365173349,40,33,9,overproduction,2,0
+2026-05-25,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,37.9,21.2179365173349,100,84,16,overproduction,0,0
+2026-05-26,R001,D01,Biryani,Main,180,80,0,Tuesday,0,40.2,18.526405540621358,65,50,15,expiry,0,0
+2026-05-26,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,40.2,18.526405540621358,46,33,13,prep_error,0,0
+2026-05-26,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,40.2,18.526405540621358,38,37,3,overproduction,2,0
+2026-05-26,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,40.2,18.526405540621358,41,31,12,overproduction,2,0
+2026-05-26,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,40.2,18.526405540621358,100,71,29,overproduction,0,0
+2026-05-27,R001,D01,Biryani,Main,180,80,0,Wednesday,0,37.7,0.0,70,63,7,overproduction,0,0
+2026-05-27,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,37.7,0.0,46,46,0,none,0,0
+2026-05-27,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,37.7,0.0,38,33,5,expiry,0,0
+2026-05-27,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,37.7,0.0,42,44,0,none,2,0
+2026-05-27,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,37.7,0.0,110,83,27,overproduction,0,0
+2026-05-28,R001,D01,Biryani,Main,180,80,0,Thursday,0,34.0,0.0,75,72,5,other,2,0
+2026-05-28,R001,D02,Paneer Butter Masala,Main,220,95,1,Thursday,0,34.0,0.0,47,47,0,none,0,0
+2026-05-28,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,34.0,0.0,37,29,8,expiry,0,0
+2026-05-28,R001,D04,Veg Fried Rice,Main,150,55,1,Thursday,0,34.0,0.0,43,45,0,none,2,0
+2026-05-28,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,34.0,0.0,110,84,28,overproduction,2,0
+2026-05-29,R001,D01,Biryani,Main,180,80,0,Friday,0,38.3,0.0,90,68,22,overproduction,0,0
+2026-05-29,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,38.3,0.0,55,44,11,overproduction,0,0
+2026-05-29,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,38.3,0.0,36,28,8,other,0,0
+2026-05-29,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,38.3,0.0,47,36,11,overproduction,0,0
+2026-05-29,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,38.3,0.0,120,101,23,expiry,4,0
+2026-05-30,R001,D01,Biryani,Main,180,80,0,Saturday,0,37.0,0.0,105,93,14,other,2,0
+2026-05-30,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,37.0,0.0,60,50,10,expiry,0,0
+2026-05-30,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,37.0,0.0,43,41,2,overproduction,0,0
+2026-05-30,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,37.0,0.0,51,51,0,none,0,0
+2026-05-30,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,37.0,0.0,130,117,15,overproduction,2,0
+2026-05-31,R001,D01,Biryani,Main,180,80,0,Sunday,0,36.9,0.0,95,83,12,other,0,0
+2026-05-31,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,36.9,0.0,56,56,0,none,0,0
+2026-05-31,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,36.9,0.0,49,39,10,expiry,0,0
+2026-05-31,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,36.9,0.0,49,40,9,overproduction,0,0
+2026-05-31,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,36.9,0.0,130,110,20,overproduction,0,0
+2026-06-01,R001,D01,Biryani,Main,180,80,0,Monday,0,37.8,0.0,65,55,10,prep_error,0,0
+2026-06-01,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,37.8,0.0,46,41,9,prep_error,4,0
+2026-06-01,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,37.8,0.0,44,37,7,overproduction,0,0
+2026-06-01,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,37.8,0.0,44,40,4,overproduction,0,0
+2026-06-01,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,37.8,0.0,100,93,7,overproduction,0,0
+2026-06-02,R001,D01,Biryani,Main,180,80,0,Tuesday,0,36.7,0.0,70,54,16,expiry,0,0
+2026-06-02,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,36.7,0.0,49,30,19,expiry,0,0
+2026-06-02,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,36.7,0.0,42,31,11,expiry,0,0
+2026-06-02,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,36.7,0.0,47,33,16,expiry,2,0
+2026-06-02,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,36.7,0.0,110,92,18,prep_error,0,0
+2026-06-03,R001,D01,Biryani,Main,180,80,0,Wednesday,0,37.0,0.0,70,61,11,expiry,2,0
+2026-06-03,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,37.0,0.0,50,50,0,none,0,0
+2026-06-03,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,37.0,0.0,40,36,4,prep_error,0,0
+2026-06-03,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,37.0,0.0,49,50,1,overproduction,2,0
+2026-06-03,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,37.0,0.0,110,90,20,expiry,0,0
+2026-06-04,R001,D01,Biryani,Main,180,80,0,Thursday,0,33.4,0.0,75,67,8,expiry,0,0
+2026-06-04,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,33.4,0.0,52,41,11,overproduction,0,0
+2026-06-04,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,33.4,0.0,39,32,7,other,0,0
+2026-06-04,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,33.4,0.0,51,33,18,overproduction,0,0
+2026-06-04,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,33.4,0.0,120,99,23,overproduction,2,0
+2026-06-05,R001,D01,Biryani,Main,180,80,0,Friday,0,34.8,0.0,90,82,12,overproduction,4,0
+2026-06-05,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,34.8,0.0,58,52,6,other,0,0
+2026-06-05,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,34.8,0.0,38,27,11,expiry,0,0
+2026-06-05,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,34.8,0.0,51,39,12,overproduction,0,0
+2026-06-05,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,34.8,0.0,140,116,24,prep_error,0,0
+2026-06-06,R001,D01,Biryani,Main,180,80,0,Saturday,0,38.1,0.0,110,79,35,other,4,0
+2026-06-06,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,38.1,0.0,66,48,20,overproduction,2,0
+2026-06-06,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,38.1,0.0,45,36,9,overproduction,0,0
+2026-06-06,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,38.1,0.0,55,48,7,overproduction,0,0
+2026-06-06,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,38.1,0.0,150,115,35,other,0,0
+2026-06-07,R001,D01,Biryani,Main,180,80,0,Sunday,0,35.7,0.0,100,77,23,expiry,0,0
+2026-06-07,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,35.7,0.0,62,40,22,overproduction,0,0
+2026-06-07,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,35.7,0.0,49,36,13,overproduction,0,0
+2026-06-07,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,35.7,0.0,51,36,19,overproduction,4,0
+2026-06-07,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,35.7,0.0,150,115,35,expiry,0,0
+2026-06-08,R001,D01,Biryani,Main,180,80,0,Monday,0,33.0,0.0,65,56,9,overproduction,0,0
+2026-06-08,R001,D02,Paneer Butter Masala,Main,220,95,1,Monday,0,33.0,0.0,46,45,3,overproduction,2,0
+2026-06-08,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,33.0,0.0,43,32,11,overproduction,0,0
+2026-06-08,R001,D04,Veg Fried Rice,Main,150,55,1,Monday,0,33.0,0.0,44,37,9,overproduction,2,0
+2026-06-08,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,33.0,0.0,110,91,23,overproduction,4,0
+2026-06-09,R001,D01,Biryani,Main,180,80,0,Tuesday,0,33.6,0.0,70,59,13,prep_error,2,0
+2026-06-09,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,33.6,0.0,47,38,11,expiry,2,0
+2026-06-09,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,33.6,0.0,39,30,11,overproduction,2,0
+2026-06-09,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,33.6,0.0,45,35,10,overproduction,0,0
+2026-06-09,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,33.6,0.0,110,77,33,overproduction,0,0
+2026-06-10,R001,D01,Biryani,Main,180,80,0,Wednesday,0,33.5,0.0,70,68,2,overproduction,0,0
+2026-06-10,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,33.5,0.0,50,49,1,overproduction,0,0
+2026-06-10,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,33.5,0.0,38,27,11,overproduction,0,0
+2026-06-10,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,33.5,0.0,47,41,6,overproduction,0,0
+2026-06-10,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,33.5,0.0,120,70,50,prep_error,0,0
+2026-06-11,R001,D01,Biryani,Main,180,80,0,Thursday,0,34.9,21.218465147493283,75,47,28,other,0,0
+2026-06-11,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,34.9,21.218465147493283,51,31,20,overproduction,0,0
+2026-06-11,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,34.9,21.218465147493283,35,30,5,overproduction,0,0
+2026-06-11,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,34.9,21.218465147493283,46,30,16,overproduction,0,0
+2026-06-11,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,34.9,21.218465147493283,120,76,44,overproduction,0,0
+2026-06-12,R001,D01,Biryani,Main,180,80,0,Friday,0,33.8,17.59596817974241,90,58,32,overproduction,0,0
+2026-06-12,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,33.8,17.59596817974241,56,40,18,overproduction,2,0
+2026-06-12,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,33.8,17.59596817974241,34,27,7,overproduction,0,0
+2026-06-12,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,33.8,17.59596817974241,48,33,15,other,0,0
+2026-06-12,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,33.8,17.59596817974241,130,95,35,overproduction,0,0
+2026-06-13,R001,D01,Biryani,Main,180,80,0,Saturday,0,33.2,7.353304233194847,100,78,24,expiry,2,0
+2026-06-13,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,33.2,7.353304233194847,60,40,20,expiry,0,0
+2026-06-13,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,33.2,7.353304233194847,41,34,7,expiry,0,0
+2026-06-13,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,33.2,7.353304233194847,50,32,18,expiry,0,0
+2026-06-13,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,33.2,7.353304233194847,140,93,49,overproduction,2,0
+2026-06-14,R001,D01,Biryani,Main,180,80,0,Sunday,0,33.9,0.0,95,79,20,overproduction,4,0
+2026-06-14,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,33.9,0.0,55,47,8,overproduction,0,0
+2026-06-14,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,33.9,0.0,44,32,12,expiry,0,0
+2026-06-14,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,33.9,0.0,44,36,8,expiry,0,0
+2026-06-14,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,33.9,0.0,130,105,25,overproduction,0,0
+2026-06-15,R001,D01,Biryani,Main,180,80,0,Monday,0,34.4,0.0,60,53,9,expiry,2,0
+2026-06-15,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,34.4,0.0,44,30,16,overproduction,2,0
+2026-06-15,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,34.4,0.0,39,27,16,overproduction,4,0
+2026-06-15,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,34.4,0.0,38,28,12,overproduction,2,0
+2026-06-15,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,34.4,0.0,100,89,11,prep_error,0,0
+2026-06-16,R001,D01,Biryani,Main,180,80,0,Tuesday,0,33.0,0.0,65,54,15,overproduction,4,0
+2026-06-16,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,33.0,0.0,42,38,8,overproduction,4,0
+2026-06-16,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,33.0,0.0,35,25,10,expiry,0,0
+2026-06-16,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,33.0,0.0,38,31,9,prep_error,2,0
+2026-06-16,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,33.0,0.0,100,83,17,overproduction,0,0
+2026-06-17,R001,D01,Biryani,Main,180,80,0,Wednesday,0,32.3,0.0,65,59,6,prep_error,0,0
+2026-06-17,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,32.3,0.0,43,43,0,none,0,0
+2026-06-17,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,32.3,0.0,34,23,11,overproduction,0,0
+2026-06-17,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,32.3,0.0,39,39,0,none,0,0
+2026-06-17,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,32.3,0.0,100,76,26,overproduction,2,0
+2026-06-18,R001,D01,Biryani,Main,180,80,0,Thursday,0,32.2,0.0,65,69,0,none,4,0
+2026-06-18,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,32.2,0.0,44,34,10,overproduction,0,0
+2026-06-18,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,32.2,0.0,32,27,5,overproduction,0,0
+2026-06-18,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,32.2,0.0,39,34,5,expiry,0,0
+2026-06-18,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,32.2,0.0,110,97,15,overproduction,2,0
+2026-06-19,R001,D01,Biryani,Main,180,80,0,Friday,0,33.1,0.0,85,84,1,prep_error,0,0
+2026-06-19,R001,D02,Paneer Butter Masala,Main,220,95,1,Friday,0,33.1,0.0,50,52,0,none,2,0
+2026-06-19,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,33.1,0.0,30,29,1,overproduction,0,0
+2026-06-19,R001,D04,Veg Fried Rice,Main,150,55,1,Friday,0,33.1,0.0,42,42,0,none,0,0
+2026-06-19,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,33.1,0.0,120,102,22,overproduction,4,0
+2026-06-20,R001,D01,Biryani,Main,180,80,0,Saturday,0,32.3,0.0,110,89,21,overproduction,0,0
+2026-06-20,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,32.3,0.0,58,49,9,overproduction,0,0
+2026-06-20,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,32.3,0.0,37,34,3,other,0,0
+2026-06-20,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,32.3,0.0,46,40,8,overproduction,2,0
+2026-06-20,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,32.3,0.0,140,119,21,overproduction,0,0
+2026-06-21,R001,D01,Biryani,Main,180,80,0,Sunday,1,33.2,0.0,100,100,0,none,0,0
+2026-06-21,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,1,33.2,0.0,57,57,0,none,0,0
+2026-06-21,R001,D03,Dal Tadka,Side,120,38,0,Sunday,1,33.2,0.0,40,40,0,none,0,0
+2026-06-21,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,1,33.2,0.0,45,49,0,none,4,0
+2026-06-21,R001,D05,Butter Naan,Bread,45,12,0,Sunday,1,33.2,0.0,140,140,0,none,0,0
+2026-06-22,R001,D01,Biryani,Main,180,80,0,Monday,0,30.0,0.0,70,56,16,overproduction,2,0
+2026-06-22,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,30.0,0.0,46,40,10,expiry,4,0
+2026-06-22,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,30.0,0.0,37,34,3,expiry,0,0
+2026-06-22,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,30.0,0.0,41,34,7,other,0,0
+2026-06-22,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,30.0,0.0,110,91,19,expiry,0,0
+2026-06-23,R001,D01,Biryani,Main,180,80,0,Tuesday,0,30.3,0.0,75,64,11,expiry,0,0
+2026-06-23,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,30.3,0.0,48,35,13,expiry,0,0
+2026-06-23,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,30.3,0.0,36,31,7,expiry,2,0
+2026-06-23,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,30.3,0.0,44,36,8,expiry,0,0
+2026-06-23,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,30.3,0.0,110,85,25,expiry,0,0
+2026-06-24,R001,D01,Biryani,Main,180,80,0,Wednesday,0,32.3,0.0,75,69,8,expiry,2,0
+2026-06-24,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,32.3,0.0,49,49,2,overproduction,2,0
+2026-06-24,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,32.3,0.0,36,34,2,overproduction,0,0
+2026-06-24,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,32.3,0.0,46,42,4,expiry,0,0
+2026-06-24,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,32.3,0.0,120,82,38,overproduction,0,0
+2026-06-25,R001,D01,Biryani,Main,180,80,0,Thursday,0,29.7,0.0,85,65,20,overproduction,0,0
+2026-06-25,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,29.7,0.0,51,37,14,expiry,0,0
+2026-06-25,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,29.7,0.0,37,28,9,prep_error,0,0
+2026-06-25,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,29.7,0.0,47,45,2,overproduction,0,0
+2026-06-25,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,29.7,0.0,120,85,35,overproduction,0,0
+2026-06-26,R001,D01,Biryani,Main,180,80,0,Friday,0,32.7,0.0,100,74,26,expiry,0,0
+2026-06-26,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,32.7,0.0,59,50,13,overproduction,4,0
+2026-06-26,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,32.7,0.0,36,31,5,overproduction,0,0
+2026-06-26,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,32.7,0.0,52,42,10,prep_error,0,0
+2026-06-26,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,32.7,0.0,140,112,28,other,0,0
+2026-06-27,R001,D01,Biryani,Main,180,80,0,Saturday,0,32.4,0.0,115,95,20,overproduction,0,0
+2026-06-27,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,32.4,0.0,65,52,13,overproduction,0,0
+2026-06-27,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,32.4,0.0,43,35,8,expiry,0,0
+2026-06-27,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,32.4,0.0,55,48,9,overproduction,2,0
+2026-06-27,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,32.4,0.0,150,113,37,expiry,0,0
+2026-06-28,R001,D01,Biryani,Main,180,80,0,Sunday,0,32.2,0.0,110,92,18,overproduction,0,0
+2026-06-28,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,32.2,0.0,63,48,15,overproduction,0,0
+2026-06-28,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,32.2,0.0,48,39,13,overproduction,4,0
+2026-06-28,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,32.2,0.0,53,41,12,expiry,0,0
+2026-06-28,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,32.2,0.0,150,130,24,overproduction,4,0
+2026-06-29,R001,D01,Biryani,Main,180,80,0,Monday,0,28.5,0.0,70,62,8,overproduction,0,0
+2026-06-29,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,28.5,0.0,47,39,8,overproduction,0,0
+2026-06-29,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,28.5,0.0,42,30,14,overproduction,2,0
+2026-06-29,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,28.5,0.0,45,33,14,overproduction,2,0
+2026-06-29,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,28.5,0.0,110,83,27,overproduction,0,0
+2026-06-30,R001,D01,Biryani,Main,180,80,0,Tuesday,0,29.6,0.0,75,65,10,overproduction,0,0
+2026-06-30,R001,D02,Paneer Butter Masala,Main,220,95,1,Tuesday,0,29.6,0.0,48,48,0,none,0,0
+2026-06-30,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,29.6,0.0,39,33,6,overproduction,0,0
+2026-06-30,R001,D04,Veg Fried Rice,Main,150,55,1,Tuesday,0,29.6,0.0,47,47,0,none,0,0
+2026-06-30,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,29.6,0.0,110,102,8,overproduction,0,0
+2026-07-01,R001,D01,Biryani,Main,180,80,0,Wednesday,0,28.5,0.0,75,65,14,overproduction,4,0
+2026-07-01,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,28.5,0.0,51,51,0,none,0,0
+2026-07-01,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,28.5,0.0,38,27,13,expiry,2,0
+2026-07-01,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,28.5,0.0,50,40,14,overproduction,4,0
+2026-07-01,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,28.5,0.0,120,95,25,overproduction,0,0
+2026-07-02,R001,D01,Biryani,Main,180,80,0,Thursday,0,30.4,0.0,80,66,14,overproduction,0,0
+2026-07-02,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,30.4,0.0,53,38,15,overproduction,0,0
+2026-07-02,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,30.4,0.0,36,28,8,overproduction,0,0
+2026-07-02,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,30.4,0.0,51,36,15,prep_error,0,0
+2026-07-02,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,30.4,0.0,120,101,19,overproduction,0,0
+2026-07-03,R001,D01,Biryani,Main,180,80,0,Friday,0,31.3,0.0,100,76,24,other,0,0
+2026-07-03,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,31.3,0.0,60,43,17,overproduction,0,0
+2026-07-03,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,31.3,0.0,35,28,7,overproduction,0,0
+2026-07-03,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,31.3,0.0,52,45,11,overproduction,4,0
+2026-07-03,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,31.3,0.0,140,100,40,overproduction,0,0
+2026-07-04,R001,D01,Biryani,Main,180,80,0,Saturday,0,29.8,0.0,120,104,16,expiry,0,0
+2026-07-04,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,29.8,0.0,66,57,11,prep_error,2,0
+2026-07-04,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,29.8,0.0,41,30,11,overproduction,0,0
+2026-07-04,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,29.8,0.0,56,42,16,overproduction,2,0
+2026-07-04,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,29.8,0.0,160,126,34,overproduction,0,0
+2026-07-05,R001,D01,Biryani,Main,180,80,0,Sunday,0,28.3,0.0,110,86,26,expiry,2,0
+2026-07-05,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,28.3,0.0,63,50,15,overproduction,2,0
+2026-07-05,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,28.3,0.0,44,33,11,overproduction,0,0
+2026-07-05,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,28.3,0.0,51,36,19,overproduction,4,0
+2026-07-05,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,28.3,0.0,150,104,46,overproduction,0,0
+2026-07-06,R001,D01,Biryani,Main,180,80,0,Monday,0,27.5,19.226029542294043,75,42,33,prep_error,0,0
+2026-07-06,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,27.5,19.226029542294043,49,31,20,overproduction,2,0
+2026-07-06,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,27.5,19.226029542294043,38,32,10,overproduction,4,0
+2026-07-06,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,27.5,19.226029542294043,44,26,20,prep_error,2,0
+2026-07-06,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,27.5,19.226029542294043,110,82,30,expiry,2,0
+2026-07-07,R001,D01,Biryani,Main,180,80,0,Tuesday,0,28.7,28.770102880397395,70,47,23,overproduction,0,0
+2026-07-07,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,28.7,28.770102880397395,49,30,19,overproduction,0,0
+2026-07-07,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,28.7,28.770102880397395,36,29,9,overproduction,2,0
+2026-07-07,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,28.7,28.770102880397395,44,28,18,prep_error,2,0
+2026-07-07,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,28.7,28.770102880397395,110,92,20,overproduction,2,0
+2026-07-08,R001,D01,Biryani,Main,180,80,0,Wednesday,0,25.7,11.790539682592433,70,49,21,overproduction,0,0
+2026-07-08,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,25.7,11.790539682592433,47,38,9,overproduction,0,0
+2026-07-08,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,25.7,11.790539682592433,34,26,8,other,0,0
+2026-07-08,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,25.7,11.790539682592433,43,37,6,overproduction,0,0
+2026-07-08,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,25.7,11.790539682592433,120,78,42,overproduction,0,0
+2026-07-09,R001,D01,Biryani,Main,180,80,0,Thursday,0,28.1,20.912798713994736,75,53,22,expiry,0,0
+2026-07-09,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,28.1,20.912798713994736,47,30,17,overproduction,0,0
+2026-07-09,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,28.1,20.912798713994736,33,25,12,overproduction,4,0
+2026-07-09,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,28.1,20.912798713994736,43,28,15,other,0,0
+2026-07-09,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,28.1,20.912798713994736,120,76,44,overproduction,0,0
+2026-07-10,R001,D01,Biryani,Main,180,80,0,Friday,0,25.7,23.180022496999232,85,61,24,expiry,0,0
+2026-07-10,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,25.7,23.180022496999232,52,36,20,expiry,4,0
+2026-07-10,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,25.7,23.180022496999232,32,24,8,overproduction,0,0
+2026-07-10,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,25.7,23.180022496999232,44,31,13,overproduction,0,0
+2026-07-10,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,25.7,23.180022496999232,130,108,24,overproduction,2,0
+2026-07-11,R001,D01,Biryani,Main,180,80,0,Saturday,0,27.8,0.0,100,88,12,expiry,0,0
+2026-07-11,R001,D02,Paneer Butter Masala,Main,220,95,1,Saturday,0,27.8,0.0,56,54,4,expiry,2,0
+2026-07-11,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,27.8,0.0,37,31,6,overproduction,0,0
+2026-07-11,R001,D04,Veg Fried Rice,Main,150,55,1,Saturday,0,27.8,0.0,44,44,0,none,0,0
+2026-07-11,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,27.8,0.0,140,105,35,overproduction,0,0
+2026-07-12,R001,D01,Biryani,Main,180,80,0,Sunday,0,26.4,0.0,90,87,3,overproduction,0,0
+2026-07-12,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,26.4,0.0,53,45,8,overproduction,0,0
+2026-07-12,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,26.4,0.0,41,35,6,prep_error,0,0
+2026-07-12,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,26.4,0.0,41,36,5,overproduction,0,0
+2026-07-12,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,26.4,0.0,130,96,36,overproduction,2,0
+2026-07-13,R001,D01,Biryani,Main,180,80,0,Monday,0,25.9,0.0,60,49,11,expiry,0,0
+2026-07-13,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,25.9,0.0,40,31,11,other,2,0
+2026-07-13,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,25.9,0.0,37,28,9,overproduction,0,0
+2026-07-13,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,25.9,0.0,36,34,2,prep_error,0,0
+2026-07-13,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,25.9,0.0,100,92,8,prep_error,0,0
+2026-07-14,R001,D01,Biryani,Main,180,80,0,Tuesday,0,24.9,0.0,60,54,6,expiry,0,0
+2026-07-14,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,24.9,0.0,41,36,5,expiry,0,0
+2026-07-14,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,24.9,0.0,34,26,8,expiry,0,0
+2026-07-14,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,24.9,0.0,39,31,8,overproduction,0,0
+2026-07-14,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,24.9,0.0,100,81,23,expiry,4,0
+2026-07-15,R001,D01,Biryani,Main,180,80,0,Wednesday,0,25.5,0.0,65,53,12,expiry,0,0
+2026-07-15,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,25.5,0.0,43,42,1,overproduction,0,0
+2026-07-15,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,25.5,0.0,32,30,2,overproduction,0,0
+2026-07-15,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,25.5,0.0,40,40,0,none,0,0
+2026-07-15,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,25.5,0.0,110,87,23,overproduction,0,0
+2026-07-16,R001,D01,Biryani,Main,180,80,0,Thursday,1,26.7,0.0,70,70,0,none,0,0
+2026-07-16,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,1,26.7,0.0,45,45,0,none,0,0
+2026-07-16,R001,D03,Dal Tadka,Side,120,38,0,Thursday,1,26.7,0.0,32,32,0,none,0,0
+2026-07-16,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,1,26.7,0.0,42,44,2,overproduction,4,0
+2026-07-16,R001,D05,Butter Naan,Bread,45,12,0,Thursday,1,26.7,0.0,110,110,0,none,0,0
+2026-07-17,R001,D01,Biryani,Main,180,80,0,Friday,0,27.3,0.0,90,82,8,overproduction,0,0
+2026-07-17,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,27.3,0.0,54,45,9,prep_error,0,0
+2026-07-17,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,27.3,0.0,32,24,8,overproduction,0,0
+2026-07-17,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,27.3,0.0,47,33,14,other,0,0
+2026-07-17,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,27.3,0.0,130,96,34,prep_error,0,0
+2026-07-18,R001,D01,Biryani,Main,180,80,0,Saturday,0,26.3,0.0,110,91,19,overproduction,0,0
+2026-07-18,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,26.3,0.0,61,50,13,prep_error,2,0
+2026-07-18,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,26.3,0.0,38,32,6,expiry,0,0
+2026-07-18,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,26.3,0.0,50,43,9,expiry,2,0
+2026-07-18,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,26.3,0.0,140,111,29,overproduction,0,0
+2026-07-19,R001,D01,Biryani,Main,180,80,0,Sunday,0,27.4,0.0,100,90,14,overproduction,4,0
+2026-07-19,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,27.4,0.0,57,47,10,overproduction,0,0
+2026-07-19,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,27.4,0.0,42,37,5,overproduction,0,0
+2026-07-19,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,27.4,0.0,47,39,10,expiry,2,0
+2026-07-19,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,27.4,0.0,140,129,11,overproduction,0,0
+2026-07-20,R001,D01,Biryani,Main,180,80,0,Monday,0,29.0,0.0,70,63,7,expiry,0,0
+2026-07-20,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,29.0,0.0,45,37,10,overproduction,2,0
+2026-07-20,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,29.0,0.0,38,33,5,overproduction,0,0
+2026-07-20,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,29.0,0.0,42,35,11,overproduction,4,0
+2026-07-20,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,29.0,0.0,110,76,34,expiry,0,0
+2026-07-21,R001,D01,Biryani,Main,180,80,0,Tuesday,0,24.6,0.0,70,62,10,expiry,2,0
+2026-07-21,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,24.6,0.0,47,34,13,overproduction,0,0
+2026-07-21,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,24.6,0.0,37,30,7,expiry,0,0
+2026-07-21,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,24.6,0.0,43,38,5,expiry,0,0
+2026-07-21,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,24.6,0.0,110,75,35,overproduction,0,0
+2026-07-22,R001,D01,Biryani,Main,180,80,0,Wednesday,0,24.6,0.0,75,58,19,other,2,0
+2026-07-22,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,24.6,0.0,47,46,3,prep_error,2,0
+2026-07-22,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,24.6,0.0,36,24,12,overproduction,0,0
+2026-07-22,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,24.6,0.0,46,46,0,none,0,0
+2026-07-22,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,24.6,0.0,110,84,26,overproduction,0,0
+2026-07-23,R001,D01,Biryani,Main,180,80,0,Thursday,0,22.6,0.0,80,65,15,overproduction,0,0
+2026-07-23,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,22.6,0.0,50,50,0,none,0,0
+2026-07-23,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,22.6,0.0,34,33,1,expiry,0,0
+2026-07-23,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,22.6,0.0,48,43,7,overproduction,2,0
+2026-07-23,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,22.6,0.0,120,93,27,overproduction,0,0
+2026-07-24,R001,D01,Biryani,Main,180,80,0,Friday,0,26.5,0.0,95,94,1,expiry,0,0
+2026-07-24,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,26.5,0.0,57,51,6,overproduction,0,0
+2026-07-24,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,26.5,0.0,33,29,4,overproduction,0,0
+2026-07-24,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,26.5,0.0,50,37,13,overproduction,0,0
+2026-07-24,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,26.5,0.0,130,107,25,other,2,0
+2026-07-25,R001,D01,Biryani,Main,180,80,0,Saturday,0,26.5,0.0,120,103,17,expiry,0,0
+2026-07-25,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,26.5,0.0,65,55,12,overproduction,2,0
+2026-07-25,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,26.5,0.0,41,37,4,overproduction,0,0
+2026-07-25,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,26.5,0.0,54,41,13,overproduction,0,0
+2026-07-25,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,26.5,0.0,150,108,42,overproduction,0,0
+2026-07-26,R001,D01,Biryani,Main,180,80,0,Sunday,0,23.2,0.0,110,86,26,overproduction,2,0
+2026-07-26,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,23.2,0.0,63,43,24,overproduction,4,0
+2026-07-26,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,23.2,0.0,45,37,8,prep_error,0,0
+2026-07-26,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,23.2,0.0,50,39,13,overproduction,2,0
+2026-07-26,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,23.2,0.0,140,120,20,overproduction,0,0
+2026-07-27,R001,D01,Biryani,Main,180,80,0,Monday,0,25.3,0.0,75,64,11,overproduction,0,0
+2026-07-27,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,25.3,0.0,48,38,12,expiry,2,0
+2026-07-27,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,25.3,0.0,41,34,7,expiry,0,0
+2026-07-27,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,25.3,0.0,44,32,12,other,0,0
+2026-07-27,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,25.3,0.0,100,81,19,prep_error,0,0
+2026-07-28,R001,D01,Biryani,Main,180,80,0,Tuesday,0,26.1,0.0,75,60,15,overproduction,0,0
+2026-07-28,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,26.1,0.0,49,39,12,overproduction,2,0
+2026-07-28,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,26.1,0.0,38,35,3,overproduction,0,0
+2026-07-28,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,26.1,0.0,45,37,8,overproduction,0,0
+2026-07-28,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,26.1,0.0,110,82,30,overproduction,2,0
+2026-07-29,R001,D01,Biryani,Main,180,80,0,Wednesday,0,24.6,0.0,80,68,12,other,0,0
+2026-07-29,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,24.6,0.0,51,51,0,none,0,0
+2026-07-29,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,24.6,0.0,38,27,13,other,2,0
+2026-07-29,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,24.6,0.0,46,45,1,expiry,0,0
+2026-07-29,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,24.6,0.0,110,96,14,other,0,0
+2026-07-30,R001,D01,Biryani,Main,180,80,0,Thursday,0,25.4,0.0,85,63,22,overproduction,0,0
+2026-07-30,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,25.4,0.0,53,40,15,overproduction,2,0
+2026-07-30,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,25.4,0.0,37,27,10,overproduction,0,0
+2026-07-30,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,25.4,0.0,47,39,8,expiry,0,0
+2026-07-30,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,25.4,0.0,120,102,18,overproduction,0,0
+2026-07-31,R001,D01,Biryani,Main,180,80,0,Friday,0,24.4,30.938271795353295,105,65,40,other,0,0
+2026-07-31,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,24.4,30.938271795353295,59,31,30,expiry,2,0
+2026-07-31,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,24.4,30.938271795353295,35,23,12,overproduction,0,0
+2026-07-31,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,24.4,30.938271795353295,49,30,19,overproduction,0,0
+2026-07-31,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,24.4,30.938271795353295,140,97,43,expiry,0,0
+2026-08-01,R001,D01,Biryani,Main,180,80,0,Saturday,0,22.3,25.72891861904561,115,93,22,overproduction,0,0
+2026-08-01,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,22.3,25.72891861904561,61,42,21,overproduction,2,0
+2026-08-01,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,22.3,25.72891861904561,41,31,10,prep_error,0,0
+2026-08-01,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,22.3,25.72891861904561,50,34,20,expiry,4,0
+2026-08-01,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,22.3,25.72891861904561,150,96,54,overproduction,0,0
+2026-08-02,R001,D01,Biryani,Main,180,80,0,Sunday,0,25.6,19.064478307116747,105,82,23,overproduction,0,0
+2026-08-02,R001,D02,Paneer Butter Masala,Main,220,95,1,Sunday,0,25.6,19.064478307116747,56,50,6,expiry,0,0
+2026-08-02,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,25.6,19.064478307116747,44,35,11,other,2,0
+2026-08-02,R001,D04,Veg Fried Rice,Main,150,55,1,Sunday,0,25.6,19.064478307116747,46,44,2,overproduction,0,0
+2026-08-02,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,25.6,19.064478307116747,140,111,29,expiry,0,0
+2026-08-03,R001,D01,Biryani,Main,180,80,0,Monday,0,26.0,6.3846838736361295,70,47,25,overproduction,2,0
+2026-08-03,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,26.0,6.3846838736361295,44,31,13,expiry,0,0
+2026-08-03,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,26.0,6.3846838736361295,39,34,7,overproduction,2,0
+2026-08-03,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,26.0,6.3846838736361295,41,27,14,prep_error,0,0
+2026-08-03,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,26.0,6.3846838736361295,100,74,26,overproduction,0,0
+2026-08-04,R001,D01,Biryani,Main,180,80,0,Tuesday,0,25.1,33.32385091486073,70,60,10,prep_error,0,0
+2026-08-04,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,25.1,33.32385091486073,44,29,17,overproduction,2,0
+2026-08-04,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,25.1,33.32385091486073,36,29,11,expiry,4,0
+2026-08-04,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,25.1,33.32385091486073,42,29,13,overproduction,0,0
+2026-08-04,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,25.1,33.32385091486073,100,76,24,overproduction,0,0
+2026-08-05,R001,D01,Biryani,Main,180,80,0,Wednesday,0,22.6,0.0,70,68,2,overproduction,0,0
+2026-08-05,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,22.6,0.0,43,43,0,none,0,0
+2026-08-05,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,22.6,0.0,34,29,7,overproduction,2,0
+2026-08-05,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,22.6,0.0,42,42,0,none,0,0
+2026-08-05,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,22.6,0.0,110,91,21,overproduction,2,0
+2026-08-06,R001,D01,Biryani,Main,180,80,0,Thursday,0,22.9,0.0,75,74,1,overproduction,0,0
+2026-08-06,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,22.9,0.0,43,39,4,expiry,0,0
+2026-08-06,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,22.9,0.0,34,25,11,expiry,2,0
+2026-08-06,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,22.9,0.0,42,34,8,overproduction,0,0
+2026-08-06,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,22.9,0.0,110,87,23,expiry,0,0
+2026-08-07,R001,D01,Biryani,Main,180,80,0,Friday,0,22.3,0.0,95,74,21,expiry,0,0
+2026-08-07,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,22.3,0.0,49,48,1,other,0,0
+2026-08-07,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,22.3,0.0,32,25,7,overproduction,0,0
+2026-08-07,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,22.3,0.0,43,34,9,overproduction,0,0
+2026-08-07,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,22.3,0.0,120,112,8,prep_error,0,0
+2026-08-08,R001,D01,Biryani,Main,180,80,0,Saturday,0,25.2,0.0,115,99,16,expiry,0,0
+2026-08-08,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,25.2,0.0,58,47,11,overproduction,0,0
+2026-08-08,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,25.2,0.0,39,28,11,overproduction,0,0
+2026-08-08,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,25.2,0.0,47,37,10,other,0,0
+2026-08-08,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,25.2,0.0,140,115,27,expiry,2,0
+2026-08-09,R001,D01,Biryani,Main,180,80,0,Sunday,0,26.0,0.0,105,90,15,prep_error,0,0
+2026-08-09,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,26.0,0.0,56,48,8,overproduction,0,0
+2026-08-09,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,26.0,0.0,42,38,4,prep_error,0,0
+2026-08-09,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,26.0,0.0,44,30,18,overproduction,4,0
+2026-08-09,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,26.0,0.0,140,113,27,overproduction,0,0
+2026-08-10,R001,D01,Biryani,Main,180,80,0,Monday,0,24.8,0.0,70,58,12,prep_error,0,0
+2026-08-10,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,24.8,0.0,43,36,7,prep_error,0,0
+2026-08-10,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,24.8,0.0,38,31,7,other,0,0
+2026-08-10,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,24.8,0.0,37,33,6,overproduction,2,0
+2026-08-10,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,24.8,0.0,100,75,27,overproduction,2,0
+2026-08-11,R001,D01,Biryani,Main,180,80,0,Tuesday,0,25.6,0.0,75,62,15,overproduction,2,0
+2026-08-11,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,25.6,0.0,45,35,10,overproduction,0,0
+2026-08-11,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,25.6,0.0,35,27,8,overproduction,0,0
+2026-08-11,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,25.6,0.0,39,30,11,overproduction,2,0
+2026-08-11,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,25.6,0.0,110,73,41,prep_error,4,0
+2026-08-12,R001,D01,Biryani,Main,180,80,0,Wednesday,1,22.9,0.0,80,82,0,none,2,0
+2026-08-12,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,1,22.9,0.0,47,47,0,none,0,0
+2026-08-12,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,1,22.9,0.0,34,35,1,overproduction,2,0
+2026-08-12,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,1,22.9,0.0,40,40,0,none,0,0
+2026-08-12,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,1,22.9,0.0,110,106,6,overproduction,2,0
+2026-08-13,R001,D01,Biryani,Main,180,80,0,Thursday,0,24.5,0.0,85,63,22,overproduction,0,0
+2026-08-13,R001,D02,Paneer Butter Masala,Main,220,95,1,Thursday,0,24.5,0.0,49,48,3,prep_error,2,0
+2026-08-13,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,24.5,0.0,34,27,7,overproduction,0,0
+2026-08-13,R001,D04,Veg Fried Rice,Main,150,55,1,Thursday,0,24.5,0.0,41,37,4,expiry,0,0
+2026-08-13,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,24.5,0.0,120,81,39,prep_error,0,0
+2026-08-14,R001,D01,Biryani,Main,180,80,0,Friday,0,22.3,0.0,100,92,8,overproduction,0,0
+2026-08-14,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,22.3,0.0,57,39,20,overproduction,2,0
+2026-08-14,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,22.3,0.0,33,23,10,overproduction,0,0
+2026-08-14,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,22.3,0.0,43,36,7,other,0,0
+2026-08-14,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,22.3,0.0,130,111,19,expiry,0,0
+2026-08-15,R001,D01,Biryani,Main,180,80,0,Saturday,0,23.3,0.0,125,98,27,overproduction,0,0
+2026-08-15,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,23.3,0.0,62,46,16,overproduction,0,0
+2026-08-15,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,23.3,0.0,39,25,14,other,0,0
+2026-08-15,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,23.3,0.0,47,38,9,expiry,0,0
+2026-08-15,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,23.3,0.0,150,93,57,overproduction,0,0
+2026-08-16,R001,D01,Biryani,Main,180,80,0,Sunday,0,25.9,0.0,115,85,30,overproduction,0,0
+2026-08-16,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,25.9,0.0,58,46,12,overproduction,0,0
+2026-08-16,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,25.9,0.0,42,36,6,overproduction,0,0
+2026-08-16,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,25.9,0.0,44,34,10,other,0,0
+2026-08-16,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,25.9,0.0,130,99,31,overproduction,0,0
+2026-08-17,R001,D01,Biryani,Main,180,80,0,Monday,0,24.3,0.0,75,57,18,overproduction,0,0
+2026-08-17,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,24.3,0.0,45,36,11,other,2,0
+2026-08-17,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,24.3,0.0,37,32,5,overproduction,0,0
+2026-08-17,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,24.3,0.0,39,29,10,prep_error,0,0
+2026-08-17,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,24.3,0.0,100,69,33,overproduction,2,0
+2026-08-18,R001,D01,Biryani,Main,180,80,0,Tuesday,0,26.6,0.0,75,64,15,expiry,4,0
+2026-08-18,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,26.6,0.0,46,35,11,expiry,0,0
+2026-08-18,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,26.6,0.0,35,28,7,overproduction,0,0
+2026-08-18,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,26.6,0.0,40,32,8,overproduction,0,0
+2026-08-18,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,26.6,0.0,100,77,23,expiry,0,0
+2026-08-19,R001,D01,Biryani,Main,180,80,0,Wednesday,0,25.7,0.0,80,61,19,overproduction,0,0
+2026-08-19,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,25.7,0.0,47,47,0,none,0,0
+2026-08-19,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,25.7,0.0,34,27,7,overproduction,0,0
+2026-08-19,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,25.7,0.0,41,41,0,none,0,0
+2026-08-19,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,25.7,0.0,110,87,27,expiry,4,0
+2026-08-20,R001,D01,Biryani,Main,180,80,0,Thursday,0,29.2,0.0,80,70,10,prep_error,0,0
+2026-08-20,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,29.2,0.0,48,42,6,overproduction,0,0
+2026-08-20,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,29.2,0.0,32,24,8,overproduction,0,0
+2026-08-20,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,29.2,0.0,42,34,8,overproduction,0,0
+2026-08-20,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,29.2,0.0,110,78,34,expiry,2,0
+2026-08-21,R001,D01,Biryani,Main,180,80,0,Friday,0,25.4,0.0,100,89,13,expiry,2,0
+2026-08-21,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,25.4,0.0,54,53,1,overproduction,0,0
+2026-08-21,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,25.4,0.0,30,25,7,overproduction,2,0
+2026-08-21,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,25.4,0.0,44,40,6,prep_error,2,0
+2026-08-21,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,25.4,0.0,120,110,10,overproduction,0,0
+2026-08-22,R001,D01,Biryani,Main,180,80,0,Saturday,0,23.3,0.0,120,87,33,expiry,0,0
+2026-08-22,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,23.3,0.0,63,57,6,overproduction,0,0
+2026-08-22,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,23.3,0.0,37,31,6,prep_error,0,0
+2026-08-22,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,23.3,0.0,48,37,11,overproduction,0,0
+2026-08-22,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,23.3,0.0,130,119,11,overproduction,0,0
+2026-08-23,R001,D01,Biryani,Main,180,80,0,Sunday,0,25.5,0.0,110,93,17,overproduction,0,0
+2026-08-23,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,25.5,0.0,62,54,8,overproduction,0,0
+2026-08-23,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,25.5,0.0,41,32,9,other,0,0
+2026-08-23,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,25.5,0.0,44,44,0,none,0,0
+2026-08-23,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,25.5,0.0,130,110,20,overproduction,0,0
+2026-08-24,R001,D01,Biryani,Main,180,80,0,Monday,0,24.3,0.0,75,66,9,overproduction,0,0
+2026-08-24,R001,D02,Paneer Butter Masala,Main,220,95,1,Monday,0,24.3,0.0,49,48,1,overproduction,0,0
+2026-08-24,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,24.3,0.0,36,31,5,prep_error,0,0
+2026-08-24,R001,D04,Veg Fried Rice,Main,150,55,1,Monday,0,24.3,0.0,41,41,0,none,0,0
+2026-08-24,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,24.3,0.0,100,86,16,overproduction,2,0
+2026-08-25,R001,D01,Biryani,Main,180,80,0,Tuesday,0,27.3,29.443523095377373,75,54,23,other,2,0
+2026-08-25,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,27.3,29.443523095377373,52,29,23,overproduction,0,0
+2026-08-25,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,27.3,29.443523095377373,34,27,7,overproduction,0,0
+2026-08-25,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,27.3,29.443523095377373,44,33,13,overproduction,2,0
+2026-08-25,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,27.3,29.443523095377373,110,82,28,overproduction,0,0
+2026-08-26,R001,D01,Biryani,Main,180,80,0,Wednesday,0,26.1,14.83379930602775,75,50,29,overproduction,4,0
+2026-08-26,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,26.1,14.83379930602775,52,39,13,overproduction,0,0
+2026-08-26,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,26.1,14.83379930602775,33,29,4,overproduction,0,0
+2026-08-26,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,26.1,14.83379930602775,45,35,10,other,0,0
+2026-08-26,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,26.1,14.83379930602775,110,86,24,expiry,0,0
+2026-08-27,R001,D01,Biryani,Main,180,80,0,Thursday,0,26.0,8.832491306185132,80,63,17,overproduction,0,0
+2026-08-27,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,26.0,8.832491306185132,52,35,17,overproduction,0,0
+2026-08-27,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,26.0,8.832491306185132,32,27,9,prep_error,4,0
+2026-08-27,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,26.0,8.832491306185132,45,32,15,overproduction,2,0
+2026-08-27,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,26.0,8.832491306185132,110,100,12,overproduction,2,0
+2026-08-28,R001,D01,Biryani,Main,180,80,0,Friday,0,26.3,25.84275776885255,95,68,29,other,2,0
+2026-08-28,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,26.3,25.84275776885255,58,42,16,overproduction,0,0
+2026-08-28,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,26.3,25.84275776885255,32,28,6,overproduction,2,0
+2026-08-28,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,26.3,25.84275776885255,47,34,13,overproduction,0,0
+2026-08-28,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,26.3,25.84275776885255,140,105,35,overproduction,0,0
+2026-08-29,R001,D01,Biryani,Main,180,80,0,Saturday,0,27.8,0.0,110,99,11,overproduction,0,0
+2026-08-29,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,27.8,0.0,63,59,6,overproduction,2,0
+2026-08-29,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,27.8,0.0,38,32,10,overproduction,4,0
+2026-08-29,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,27.8,0.0,49,47,4,overproduction,2,0
+2026-08-29,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,27.8,0.0,150,121,31,overproduction,2,0
+2026-08-30,R001,D01,Biryani,Main,180,80,0,Sunday,0,26.2,0.0,105,109,0,none,4,0
+2026-08-30,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,26.2,0.0,60,51,9,overproduction,0,0
+2026-08-30,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,26.2,0.0,42,39,3,overproduction,0,0
+2026-08-30,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,26.2,0.0,48,43,5,overproduction,0,0
+2026-08-30,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,26.2,0.0,140,110,30,other,0,0
+2026-08-31,R001,D01,Biryani,Main,180,80,0,Monday,0,28.2,0.0,70,67,3,other,0,0
+2026-08-31,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,28.2,0.0,46,42,4,overproduction,0,0
+2026-08-31,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,28.2,0.0,39,33,8,expiry,2,0
+2026-08-31,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,28.2,0.0,42,33,11,expiry,2,0
+2026-08-31,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,28.2,0.0,110,89,21,expiry,0,0
+2026-09-01,R001,D01,Biryani,Main,180,80,0,Tuesday,0,28.9,0.0,75,66,9,overproduction,0,0
+2026-09-01,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,28.9,0.0,46,43,3,overproduction,0,0
+2026-09-01,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,28.9,0.0,37,28,9,overproduction,0,0
+2026-09-01,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,28.9,0.0,42,35,9,other,2,0
+2026-09-01,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,28.9,0.0,110,75,35,overproduction,0,0
+2026-09-02,R001,D01,Biryani,Main,180,80,0,Wednesday,0,27.0,0.0,75,67,10,expiry,2,0
+2026-09-02,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,27.0,0.0,49,44,5,overproduction,0,0
+2026-09-02,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,27.0,0.0,36,27,11,prep_error,2,0
+2026-09-02,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,27.0,0.0,44,44,0,none,0,0
+2026-09-02,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,27.0,0.0,110,89,21,overproduction,0,0
+2026-09-03,R001,D01,Biryani,Main,180,80,0,Thursday,0,26.4,0.0,85,69,16,overproduction,0,0
+2026-09-03,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,26.4,0.0,51,40,11,overproduction,0,0
+2026-09-03,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,26.4,0.0,34,27,7,overproduction,0,0
+2026-09-03,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,26.4,0.0,46,39,7,overproduction,0,0
+2026-09-03,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,26.4,0.0,120,85,37,expiry,2,0
+2026-09-04,R001,D01,Biryani,Main,180,80,0,Friday,0,27.2,0.0,105,89,18,overproduction,2,0
+2026-09-04,R001,D02,Paneer Butter Masala,Main,220,95,1,Friday,0,27.2,0.0,59,52,9,overproduction,2,0
+2026-09-04,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,27.2,0.0,33,26,7,overproduction,0,0
+2026-09-04,R001,D04,Veg Fried Rice,Main,150,55,1,Friday,0,27.2,0.0,50,49,1,expiry,0,0
+2026-09-04,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,27.2,0.0,130,97,33,overproduction,0,0
+2026-09-05,R001,D01,Biryani,Main,180,80,0,Saturday,0,29.3,0.0,130,93,37,expiry,0,0
+2026-09-05,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,29.3,0.0,68,50,18,expiry,0,0
+2026-09-05,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,29.3,0.0,40,29,11,overproduction,0,0
+2026-09-05,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,29.3,0.0,56,44,12,prep_error,0,0
+2026-09-05,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,29.3,0.0,140,124,18,overproduction,2,0
+2026-09-06,R001,D01,Biryani,Main,180,80,0,Sunday,0,28.6,0.0,115,85,34,overproduction,4,0
+2026-09-06,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,28.6,0.0,63,46,17,expiry,0,0
+2026-09-06,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,28.6,0.0,43,39,6,overproduction,2,0
+2026-09-06,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,28.6,0.0,52,38,14,other,0,0
+2026-09-06,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,28.6,0.0,140,101,41,other,2,0
+2026-09-07,R001,D01,Biryani,Main,180,80,0,Monday,0,29.7,0.0,75,54,21,expiry,0,0
+2026-09-07,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,29.7,0.0,48,39,9,overproduction,0,0
+2026-09-07,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,29.7,0.0,38,30,8,overproduction,0,0
+2026-09-07,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,29.7,0.0,44,32,12,overproduction,0,0
+2026-09-07,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,29.7,0.0,100,71,29,expiry,0,0
+2026-09-08,R001,D01,Biryani,Main,180,80,0,Tuesday,0,31.6,0.0,75,53,22,expiry,0,0
+2026-09-08,R001,D02,Paneer Butter Masala,Main,220,95,0,Tuesday,0,31.6,0.0,48,35,13,overproduction,0,0
+2026-09-08,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,31.6,0.0,35,28,9,overproduction,2,0
+2026-09-08,R001,D04,Veg Fried Rice,Main,150,55,0,Tuesday,0,31.6,0.0,46,35,11,overproduction,0,0
+2026-09-08,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,31.6,0.0,100,92,8,expiry,0,0
+2026-09-09,R001,D01,Biryani,Main,180,80,0,Wednesday,1,29.6,0.0,75,75,0,none,0,0
+2026-09-09,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,1,29.6,0.0,48,50,0,none,2,0
+2026-09-09,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,1,29.6,0.0,34,34,0,none,0,0
+2026-09-09,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,1,29.6,0.0,47,47,0,none,0,0
+2026-09-09,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,1,29.6,0.0,110,98,14,overproduction,2,0
+2026-09-10,R001,D01,Biryani,Main,180,80,0,Thursday,0,28.3,0.0,80,65,15,overproduction,0,0
+2026-09-10,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,28.3,0.0,51,37,14,overproduction,0,0
+2026-09-10,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,28.3,0.0,34,20,14,overproduction,0,0
+2026-09-10,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,28.3,0.0,49,35,14,expiry,0,0
+2026-09-10,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,28.3,0.0,110,86,24,expiry,0,0
+2026-09-11,R001,D01,Biryani,Main,180,80,0,Friday,0,31.4,0.0,100,79,25,overproduction,4,0
+2026-09-11,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,31.4,0.0,57,48,9,expiry,0,0
+2026-09-11,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,31.4,0.0,32,24,8,overproduction,0,0
+2026-09-11,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,31.4,0.0,50,36,14,expiry,0,0
+2026-09-11,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,31.4,0.0,130,83,47,overproduction,0,0
+2026-09-12,R001,D01,Biryani,Main,180,80,0,Saturday,0,30.1,0.0,115,96,19,expiry,0,0
+2026-09-12,R001,D02,Paneer Butter Masala,Main,220,95,0,Saturday,0,30.1,0.0,63,50,13,overproduction,0,0
+2026-09-12,R001,D03,Dal Tadka,Side,120,38,0,Saturday,0,30.1,0.0,38,31,7,overproduction,0,0
+2026-09-12,R001,D04,Veg Fried Rice,Main,150,55,0,Saturday,0,30.1,0.0,51,36,15,expiry,0,0
+2026-09-12,R001,D05,Butter Naan,Bread,45,12,0,Saturday,0,30.1,0.0,140,102,38,overproduction,0,0
+2026-09-13,R001,D01,Biryani,Main,180,80,0,Sunday,0,31.6,0.0,105,91,14,overproduction,0,0
+2026-09-13,R001,D02,Paneer Butter Masala,Main,220,95,0,Sunday,0,31.6,0.0,60,45,15,overproduction,0,0
+2026-09-13,R001,D03,Dal Tadka,Side,120,38,0,Sunday,0,31.6,0.0,42,33,11,overproduction,2,0
+2026-09-13,R001,D04,Veg Fried Rice,Main,150,55,0,Sunday,0,31.6,0.0,47,33,14,expiry,0,0
+2026-09-13,R001,D05,Butter Naan,Bread,45,12,0,Sunday,0,31.6,0.0,130,94,36,overproduction,0,0
+2026-09-14,R001,D01,Biryani,Main,180,80,0,Monday,0,32.2,0.0,70,65,5,prep_error,0,0
+2026-09-14,R001,D02,Paneer Butter Masala,Main,220,95,0,Monday,0,32.2,0.0,46,34,14,expiry,2,0
+2026-09-14,R001,D03,Dal Tadka,Side,120,38,0,Monday,0,32.2,0.0,36,25,11,overproduction,0,0
+2026-09-14,R001,D04,Veg Fried Rice,Main,150,55,0,Monday,0,32.2,0.0,40,29,15,overproduction,4,0
+2026-09-14,R001,D05,Butter Naan,Bread,45,12,0,Monday,0,32.2,0.0,100,77,23,overproduction,0,0
+2026-09-15,R001,D01,Biryani,Main,180,80,0,Tuesday,0,29.4,0.0,75,57,18,expiry,0,0
+2026-09-15,R001,D02,Paneer Butter Masala,Main,220,95,1,Tuesday,0,29.4,0.0,46,46,0,none,0,0
+2026-09-15,R001,D03,Dal Tadka,Side,120,38,0,Tuesday,0,29.4,0.0,33,23,10,overproduction,0,0
+2026-09-15,R001,D04,Veg Fried Rice,Main,150,55,1,Tuesday,0,29.4,0.0,41,41,0,none,0,0
+2026-09-15,R001,D05,Butter Naan,Bread,45,12,0,Tuesday,0,29.4,0.0,100,84,16,other,0,0
+2026-09-16,R001,D01,Biryani,Main,180,80,0,Wednesday,0,33.2,0.0,80,64,16,other,0,0
+2026-09-16,R001,D02,Paneer Butter Masala,Main,220,95,1,Wednesday,0,33.2,0.0,49,47,2,overproduction,0,0
+2026-09-16,R001,D03,Dal Tadka,Side,120,38,0,Wednesday,0,33.2,0.0,32,27,5,overproduction,0,0
+2026-09-16,R001,D04,Veg Fried Rice,Main,150,55,1,Wednesday,0,33.2,0.0,43,43,0,none,0,0
+2026-09-16,R001,D05,Butter Naan,Bread,45,12,0,Wednesday,0,33.2,0.0,100,86,16,prep_error,2,0
+2026-09-17,R001,D01,Biryani,Main,180,80,0,Thursday,0,32.8,0.0,80,69,13,overproduction,2,0
+2026-09-17,R001,D02,Paneer Butter Masala,Main,220,95,0,Thursday,0,32.8,0.0,50,39,11,expiry,0,0
+2026-09-17,R001,D03,Dal Tadka,Side,120,38,0,Thursday,0,32.8,0.0,29,27,2,overproduction,0,0
+2026-09-17,R001,D04,Veg Fried Rice,Main,150,55,0,Thursday,0,32.8,0.0,43,32,11,expiry,0,0
+2026-09-17,R001,D05,Butter Naan,Bread,45,12,0,Thursday,0,32.8,0.0,110,87,23,overproduction,0,0
+2026-09-18,R001,D01,Biryani,Main,180,80,0,Friday,0,30.8,0.0,100,83,21,overproduction,4,0
+2026-09-18,R001,D02,Paneer Butter Masala,Main,220,95,0,Friday,0,30.8,0.0,57,41,16,prep_error,0,0
+2026-09-18,R001,D03,Dal Tadka,Side,120,38,0,Friday,0,30.8,0.0,30,27,5,overproduction,2,0
+2026-09-18,R001,D04,Veg Fried Rice,Main,150,55,0,Friday,0,30.8,0.0,45,36,9,expiry,0,0
+2026-09-18,R001,D05,Butter Naan,Bread,45,12,0,Friday,0,30.8,0.0,120,103,17,overproduction,0,0

@@ -1,0 +1,37 @@
+{
+  "D01": {
+    "rice": { "grams": 150, "cost_per_kg": 62, "yield_factor": 1.0, "buy_increment_kg": 1.0 },
+    "chicken": { "grams": 100, "cost_per_kg": 240, "yield_factor": 0.92, "buy_increment_kg": 1.0 },
+    "onion": { "grams": 20, "cost_per_kg": 34, "yield_factor": 0.85, "buy_increment_kg": 1.0 },
+    "tomato": { "grams": 25, "cost_per_kg": 42, "yield_factor": 0.90, "buy_increment_kg": 0.5 },
+    "spices": { "grams": 8, "cost_per_kg": 480, "yield_factor": 1.0, "buy_increment_kg": 0.1 }
+  },
+  "D02": {
+    "paneer": { "grams": 120, "cost_per_kg": 320, "yield_factor": 1.0, "buy_increment_kg": 0.5 },
+    "butter": { "grams": 25, "cost_per_kg": 450, "yield_factor": 1.0, "buy_increment_kg": 0.5 },
+    "tomato": { "grams": 100, "cost_per_kg": 42, "yield_factor": 0.90, "buy_increment_kg": 0.5 },
+    "onion": { "grams": 40, "cost_per_kg": 34, "yield_factor": 0.85, "buy_increment_kg": 1.0 },
+    "cream": { "grams": 30, "cost_per_kg": 200, "yield_factor": 1.0, "buy_increment_kg": 0.5 },
+    "spices": { "grams": 10, "cost_per_kg": 480, "yield_factor": 1.0, "buy_increment_kg": 0.1 }
+  },
+  "D03": {
+    "dal": { "grams": 80, "cost_per_kg": 110, "yield_factor": 1.0, "buy_increment_kg": 1.0 },
+    "ghee": { "grams": 15, "cost_per_kg": 600, "yield_factor": 1.0, "buy_increment_kg": 0.5 },
+    "onion": { "grams": 30, "cost_per_kg": 34, "yield_factor": 0.85, "buy_increment_kg": 1.0 },
+    "tomato": { "grams": 30, "cost_per_kg": 42, "yield_factor": 0.90, "buy_increment_kg": 0.5 },
+    "spices": { "grams": 6, "cost_per_kg": 480, "yield_factor": 1.0, "buy_increment_kg": 0.1 }
+  },
+  "D04": {
+    "rice": { "grams": 160, "cost_per_kg": 62, "yield_factor": 1.0, "buy_increment_kg": 1.0 },
+    "mixed_veggies": { "grams": 80, "cost_per_kg": 80, "yield_factor": 0.88, "buy_increment_kg": 1.0 },
+    "oil": { "grams": 20, "cost_per_kg": 140, "yield_factor": 1.0, "buy_increment_kg": 1.0 },
+    "soy_sauce": { "grams": 15, "cost_per_kg": 120, "yield_factor": 1.0, "buy_increment_kg": 0.5 },
+    "spices": { "grams": 5, "cost_per_kg": 480, "yield_factor": 1.0, "buy_increment_kg": 0.1 }
+  },
+  "D05": {
+    "maida": { "grams": 120, "cost_per_kg": 45, "yield_factor": 1.0, "buy_increment_kg": 1.0 },
+    "butter": { "grams": 20, "cost_per_kg": 450, "yield_factor": 1.0, "buy_increment_kg": 0.5 },
+    "milk": { "grams": 30, "cost_per_kg": 60, "yield_factor": 1.0, "buy_increment_kg": 1.0 },
+    "yeast_sugar": { "grams": 5, "cost_per_kg": 300, "yield_factor": 1.0, "buy_increment_kg": 0.1 }
+  }
+}
